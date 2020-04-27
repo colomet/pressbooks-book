@@ -164,6 +164,10 @@ $footnote-blockquote-font-size: 0.95em !default;
 $footnote-number-marker-font-size: $sup-sub-font-size !default;
 $footnote-number-marker-line-height: $sup-sub-line-height !default;
 
+/// Left margin for footnote on elements with a class of `footnote`.
+/// @type String
+$footnote-margin-left: 1.5em !default;
+
 // Endnotes
 
 /// Left margin for endnotes on elements with a class of `endnotes`.
